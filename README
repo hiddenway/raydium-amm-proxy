@@ -18,7 +18,7 @@ It serves as a proxy that forwards swap instructions to the actual Raydium progr
 - Validates the `amm_authority` using Anchor seeds and `bump`.
 - Dynamically fetches Raydium pool data (via [Raydium API](https://api-v3-devnet.raydium.io/)).
 - Automatically wraps SOL to wSOL.
-- Performs a real swap from wSOL → USDC and verifies the result.
+- Performs a real swap from wSOL → SOME TOKEN and verifies the result.
 
 ---
 
