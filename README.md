@@ -15,7 +15,6 @@ It serves as a proxy that forwards swap instructions to the actual Raydium progr
 ## 📦 Features
 
 - Wraps the `amm_swap_base_input` instruction from Raydium AMM v4.
-- Validates the `amm_authority` using Anchor seeds and `bump`.
 - Dynamically fetches Raydium pool data (via [Raydium API](https://api-v3-devnet.raydium.io/)).
 - Automatically wraps SOL to wSOL.
 - Performs a real swap from wSOL → SOME TOKEN and verifies the result.
