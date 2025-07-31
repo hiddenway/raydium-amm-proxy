@@ -1,0 +1,18 @@
+[toolchain]
+
+[features]
+seeds = false
+skip-lint = false
+
+[programs.devnet]
+swap_contract = "EYhqyD1Sm6UBxj7yKa9YCcSnQD5a41NmVZXLUCLDKXRt"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "https://devnet.helius-rpc.com/?api-key=286fcfc6-52ec-47f8-bb53-adc94c2b3af2"
+wallet = "/Users/danilholodnyj/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
